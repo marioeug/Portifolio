@@ -1,4 +1,50 @@
-/*sempre coloca esta instrução primeiro*/
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+  background-color: #4a4a4a;
+  margin-bottom: 3px;
+  padding: 60px 40px 60px 150px;
+  background-image: url('pendente.png');
+  background-repeat: no-repeat;
+  background-position: 40px center;
+  
+}
+
+li:hover {
+  background-color: #6e6e6e;
+}
+
+li.feito {
+  background-color: #27ae60;
+  background-image: url('feito.png');
+ 
+}
+
+li.feito:hover {
+  background-color: #52be7f;
+}
+
+a {
+  color: white;
+  text-decoration: none; /*tirar sublinhado*/
+  display: block;
+  background-image: url('seta.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+/* Meu código desenvoolvido
 * {
   margin: 0;
   padding: 0;
@@ -107,4 +153,4 @@
   top: 0px;
   background: #27AE60;
 }
-
+*/
