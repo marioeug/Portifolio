@@ -1,0 +1,110 @@
+/*sempre coloca esta instrução primeiro*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.projetos {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: normal;
+  letter-spacing: 2px;
+  text-align: center;
+            
+}
+
+#projeto01 {
+  position: absolute;
+  width: 124px;
+  height: 30px;
+  left: 91px;
+  top: 60px;
+  
+      
+    
+  border-style: solid;
+  list-style-type: none;
+  width: 375px;
+  height: 150px;
+  margin-bottom: 2px;
+  background-color: darkgreen;
+  color: white;
+  font-weight: bold;
+  
+             
+  }
+#projeto02 {
+  position: absolute;
+  width: 124px;
+  height: 30px;
+  left: 91px;
+  top: 213px;
+  
+    
+  border-style: solid;
+  list-style-type: none;
+  width: 375px;
+  height: 150px;
+  margin-bottom: 2px;
+  background-color: darkgray;
+  color: white;
+  font-weight: bold;
+ }
+#projeto03 {
+ 
+  position: absolute;
+  width: 124px;
+  height: 30px;
+  left: 91px;
+  top: 366px;
+  
+ 
+  border-style: solid;
+  list-style-type: none;
+  width: 375px;
+  height: 150px;
+  margin-bottom: 2px;
+  background-color: darkgray;
+  color: white;
+  font-weight: bold;
+}
+#projeto04 {
+  position: absolute;
+  width: 124px;
+  height: 30px;
+  left: 91px;
+  top: 519px;
+  
+    
+  border-style: solid;
+  list-style-type: none;
+  width: 375px;
+  height: 150px;
+  margin-bottom: 2px;
+  background-color: darkgray;
+  color: white;
+  font-weight: bold;
+}
+#projeto01:hover{
+  background-color: lightgreen
+}
+#projeto02:hover{
+  background-color: lightgray;
+}
+#projeto03:hover{
+  background-color: lightgray;
+}
+#projeto04:hover{
+  background-color: lightgray;
+}
+  #canvas001 {
+  position: absolute;
+  width: 375px;
+  height: 150px;
+  left: 0px;
+  top: 0px;
+  background: #27AE60;
+}
+
