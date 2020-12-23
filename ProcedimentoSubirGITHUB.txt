@@ -1,7 +1,8 @@
 Processo enviar arquivos para o GIT-HUB
 
 1) Logar no DOS e posicionar no diretório pm-projetos
-C:\Dados\CursoPlayCode-Programação\pm-projetos
+
+git s
 
 2) Criar o envelope dos arquivos para subir.
 
