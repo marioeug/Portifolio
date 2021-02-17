@@ -1,0 +1,453 @@
+body {
+    
+    width: 1440px;
+    height: 1240px;
+    background: #F5F8F9;
+    
+}
+
+.container  {
+    position: absolute;
+    width: 300px;
+    height: 1240px;
+    left: 250px;
+    top: 0px;
+
+    background: #3A3C40;
+}
+.central {
+    position: absolute;
+    width: 640px;
+    height: 1212px;
+    left: 550px;
+    top: 0px;
+    
+    background-color: white;
+}
+.foto {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 332px;
+    top: 32px;
+    
+    background: url(fotomario.jpg);
+}
+#dados {
+    position: absolute;
+    width: 261px;
+    height: 29px;
+    left: -60px;
+    top: 188px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #F5A623;
+
+}
+#profissao {
+    position: absolute;
+    width: 261px;
+    height: 19px;
+    left: -40px;
+    top: 221px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height, or 119% */
+
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.botao {
+    position: absolute;
+    width: 140px;
+    height: 47px;
+    left: 332px;
+    top: 285px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+
+    background: #F5A623;
+    box-shadow: 0px 4px 0px rgba(245, 166, 35, 0.6);
+    border-radius: 3px;
+}
+
+.opcoes1 {
+    position:  absolute;
+    width: 26px;
+    height: 30px;
+    left: 332px;
+    padding-top: 350px;
+}
+.opcoes2 {
+    position:  absolute;
+    width: 26px;
+    height: 30px;
+    left: 370px;
+    padding-top: 350px;
+}
+.opcoes3 {
+    position:  absolute;
+    width: 26px;
+    height: 30px;
+    left: 408px;
+    padding-top: 350px;
+}
+.opcoes4 {
+    position:  absolute;
+    width: 26px;
+    height: 30px;
+    left: 445px;
+    padding-top: 350px;
+}
+.conhecimento {
+    position: absolute;
+    width: 151px;
+    height: 19px;
+    left: 293px;
+    top: 410px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+}
+.html {
+   position: absolute;
+    width: 260px;
+    height: 15px;
+    left: 291px;
+    top: 445px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #8FA4AF;
+}
+.java {
+    position: absolute;
+    width: 260px;
+    height: 15px;
+    left: 292px;
+    top: 480px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #8FA4AF;
+}
+.rubi {
+    position: absolute;
+    width: 260px;
+    height: 15px;
+    left: 292px;
+    top: 515px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #8FA4AF;
+}
+.php {
+    position: absolute;
+    width: 260px;
+    height: 15px;
+    left: 292px;
+    top: 550px;
+    color: #8FA4AF;
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+.desenho {
+    position: absolute;
+    width: 260px;
+    height: 15px;
+    left: 291px;
+    top: 585px;
+    color: #8FA4AF;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+.resumo {
+    position: absolute;
+    width: 140px;
+    height: 22px;
+    left: 35px;
+    top: 42px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 22px;
+    display: flex;
+   
+    color: #D0021B;
+}
+.linha1 {
+    position: absolute;
+    width: 565px;
+    height: 1px;
+    left: 585px;
+    top: 68px;
+
+    background: url(line1.png);
+}
+#textoresumo1 {
+    position: absolute;
+    width: 563px;
+    height: 72px;
+    left: -35px;
+    top: 10px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    overflow-y: hidden;
+    text-align: justify;
+    border: none;
+    resize: none;
+    
+    color: #666666;
+
+}
+.experiencia {
+    position: absolute;
+    width: 140px;
+    height: 22px;
+    left: 590px;
+    top: 200px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 22px;
+    display: flex;
+   
+    color: #D0021B;
+}
+.linha2 {
+    position: absolute;
+    width: 565px;
+    height: 1px;
+    left: 585px;
+    top: 225px;
+
+    background: url(line1.png);
+}
+.experienciadetalhe1 .fundador {
+    position: absolute;
+    width: 330px;
+    height: 80px;
+    left: 585px;
+    top: 240px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    overflow-y: hidden;
+    text-align: left;
+    border: none;
+    resize: none;
+
+    color: #3A3C40;
+}
+.textodetalhe1 .descricaodetalhe1 #texto3 {
+    position: absolute;
+    width: 370px;
+    height: 170px;
+    left: 790px;
+    top: 240px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    overflow-y: hidden;
+    text-align: left;
+    border: none;
+    resize: none;
+
+    color: #666666;
+}
+.experienciadetalhe2 .fundador1 {
+    position: absolute;
+    width: 330px;
+    height: 80px;
+    left: 585px;
+    top: 350px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    overflow-y: hidden;
+    text-align: left;
+    border: none;
+    resize: none;
+
+    color: #3A3C40;
+}
+.textodetalhe2 .descricaodetalhe2 #texto4 {
+    position: absolute;
+    width: 370px;
+    height: 170px;
+    left: 790px;
+    top: 350px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    overflow-y: hidden;
+    text-align: left;
+    border: none;
+    resize: none;
+
+    color: #666666;
+}
+.formacao {
+    position: absolute;
+    width: 140px;
+    height: 22px;
+    left: 590px;
+    top: 510px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 22px;
+    display: flex;
+   
+    color: #D0021B;
+}
+.linha3 {
+    position: absolute;
+    width: 565px;
+    height: 1px;
+    left: 585px;
+    top: 550px;
+
+    background: url(line1.png);
+}
+.experienciadetalhe3 .formacao1 {
+    position: absolute;
+    width: 330px;
+    height: 80px;
+    left: 585px;
+    top: 580px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    overflow-y: hidden;
+    text-align: left;
+    border: none;
+    resize: none;
+
+    color: #3A3C40;
+}
+.textodetalhe3 .descricaodetalhe3 #texto5 {
+    position: absolute;
+    width: 370px;
+    height: 170px;
+    left: 790px;
+    top: 580px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    overflow-y: hidden;
+    text-align: left;
+    border: none;
+    resize: none;
+
+    color: #666666;
+}
+.experienciadetalhe4 .formacao2 {
+    position: absolute;
+    width: 330px;
+    height: 80px;
+    left: 585px;
+    top: 710px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    overflow-y: hidden;
+    text-align: left;
+    border: none;
+    resize: none;
+
+    color: #3A3C40;
+}
+.textodetalhe4 .descricaodetalhe4 #texto6 {
+    position: absolute;
+    width: 370px;
+    height: 170px;
+    left: 790px;
+    top: 710px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    overflow-y: hidden;
+    text-align: left;
+    border: none;
+    resize: none;
+
+    color: #666666;
+}

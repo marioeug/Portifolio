@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+        <meta charset="UTF-8">
+        <title><Projeto 007></title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="Projeto07-estilo.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!--linha para tornar aplicação resposiva mobile -->
+    
+    </head>
+    <body>
+<!------------------------------------------------ CABEÇALHO--------------------------------------------------------------->
+        <header>
+            <div class="container"><!-- Division element (div) is the generic container for flow content. 
+                                        It has no effect on the content or layout until styled in some way using CSS-->
+
+                <h1>
+                    <span> Titum</span>
+                </h1>
+
+                <nav><!-- "nav" represents a section of a page whose purpose is to provide navigation links, 
+                           either within the current document or to other documents-->
+                  <ul>
+                      <li><a href="#conheca">Conheca</a></li>
+                      <li><a href="#depoimento">Depoimento</a></li>
+                      <li><a href="#convite">Convite</a></li>
+                  </ul>  
+                </nav>
+            </div>
+        </header>
+<!------------------------------------------------------------------------------------------------------------------------>
+<!--------------------------------------------SEÇÃO TOPO - CONTAINER ----------------------------------------------------->
+      
+        <section id="topo"> <!--The HTML section element represents a standalone section — 
+                                which doesn't have a more specific semantic element to represent it — contained within an HTML document-->
+            <div class="container">
+                <div class="chamada">
+                    <h2>Conheça Titum</h2>
+                    <p>A nova moda do momento.</p>
+                    <a href="#conheca" class="botao">Saiba mais</a> <!--The "class" declaration creates a new class
+                                                                         with a given name using prototype-based inheritance-->
+                </div>                                              <!--The "a" SVG element creates a hyperlink to other web pages, files, locations in the same page, 
+                                                                         email addresses, or any other URL. It is very similar to HTML’s a element-->
+            </div>
+        </section>
+<!------------------------------------------------------------------------------------------------------------------------>
+<!--------------------------------------------SEÇÃO CONHEÇA - CONTAINER -------------------------------------------------->
+
+        <section id="conheca">
+            <div class="container">
+                <img src="conheca.png">
+                <div class="texto">
+                    <h2>Afinal, o que é o Titum?</h2>
+                    <p>Titum é um novo movimento, que veio para ficar. Lançado no último evento musical de maior prestígio mundial, Titum começou a fazer parte da cultura pop.</p>
+                    <a href="#convite" class="botao">Quero Titum</a>
+                </div>
+            </div>
+        </section>
+<!------------------------------------------------------------------------------------------------------------------------>
+<!--------------------------------------------SEÇÃO DEPOIMENTO - CONTAINER ----------------------------------------------->       
+        <section id="depoimento">
+            <div class="container">
+                <img src="depoimento.png">
+                <p>“Titum foi sem dúvida a melhor coisa que aconteceu na minha vida. Eu não sei como consegui viver sem o Titum até hoje” <br><strong>
+                    Cláudia Santos</strong></p>
+            </div>
+        </section>
+<!------------------------------------------------------------------------------------------------------------------------>
+<!---------------------------------------------SEÇÃO CONVITE - CONTAINER-------------------------------------------------->
+        
+        <section id="convite">
+            <div class="container">
+                <form action=""> <!--The HTML "form" element represents a document section containing 
+                                  interactive controls for submitting information-->
+                  <input type="email"placeholder="Receba um convite no email informado aqui"> <!--The HTML "input" element is used to create interactive controls 
+                                                                                               for web-based forms in order to accept data from the user-->
+                  <button><span>Enviar</span></button> <!--The HTML "button" element represents a clickable button, used to submit forms or anywhere 
+                                                        in a document for accessible, standard button functionality.-->
+                                                        <!--The HTML "span" element is a generic inline container for phrasing content, which does
+                                                            not inherently represent anything. It can be used to group elements for styling purposes 
+                                                            (using the class or id attributes), or because they share attribute values, such as lang.-->
+                </form>
+            </div>
+        </section>
+<!------------------------------------------------------------------------------------------------------------------------>
+<!---------------------------------------------RODAPE - CONTAINER--------------------------------------------------------->
+        <footer>
+            <div class="container">
+                <p>© 2016 Titum - Todos os direitos reservados.</p>
+            </div>
+        </footer>
+<!------------------------------------------------------------------------------------------------------------------------>
+    </body>
+           
+</html>

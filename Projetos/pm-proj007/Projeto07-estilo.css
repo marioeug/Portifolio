@@ -1,0 +1,250 @@
+body {
+    font-family: 'Lato', 'sans-serif';
+    -webkit-font-smoothing: antialiased;
+
+}
+   
+.container {
+    max-width: 960px; /*The "max-width" CSS property sets the maximum width of an element.…
+                        It prevents the used value of the width property from becoming larger than the value specified by max-width*/
+    margin: 0 auto; /*It is a shorthand for margin-top, margin-right, margin-bottom, and margin-left.…The margin CSS property 
+                      sets the margin area on all four sides of an element.*/
+    display: flex; /*flex is a new value added to the CSS display property.…Along with inline-flex it causes the element that it 
+                      applies to to become a flex container, and the element's…children to each become  a flex item.…The items 
+                      then participate in flex layout, and all of the properties defined in the CSS Flexible Box*/
+    justify-content: space-between;/*The CSS justify-content property defines how the browser distributes space between and around content*/
+}
+
+.botao {
+    background-color: #ff397e;
+    display: block;
+    padding-top: 15px; /*The padding property defines a distance between the content of an element and its edges (bordas).*/
+    padding-bottom: 15px;
+    color: #fff;
+    text-decoration: none; /*Text Decoration is a module of CSS that defines features relating to text decoration, 
+                             such as underlines…, text shadows, and emphasis marks.*/
+    box-shadow: 0px 6px 0px 0px #a32751;/*The box-shadow CSS property adds shadow effects around an element's frame*/
+    font-size: 36px;
+    border-radius: 3px;
+    text-align: center;
+    
+
+}
+
+header {
+    margin-bottom: -90px;
+}
+
+header h1 {
+    margin: 0;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;/*The background-repeat CSS property sets how background images are repeated.…
+                                   A background image can be repeated along the horizontal and vertical axes, or not repeated at all*/
+    width: 177px;
+    height: 76px;
+    margin-top: 10px;
+
+}
+
+header h1 span {
+    visibility: hidden;
+}
+
+header nav ul {
+    padding-right: 80px;
+    margin: 0;
+    margin-top: 20px;
+}
+header nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 80px;
+
+}
+/*header nav li:nth-child(2n) {  - seleciona o 2º elemento da lista. sintaxe para o filho intermediario da lista.*/
+header nav li:last-child {
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 10px 30px 10px 30px;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+section#topo {
+    background-image: url(imagemfundo.png);
+    background-size: cover;/*The background-size CSS property sets the size of the element's background image
+                              Resize the background image to cover the entire container, even if it has to stretch the image 
+                              or cut a little bit off one of the edges*/
+    height: 700px;
+}
+section#topo .chamada {
+    color: #fff;
+    margin-top: 200px;
+    text-align: center;
+
+}
+
+section#topo .chamada h2 {
+    margin: 0;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+section#topo .chamada p {
+    margin: 0;
+    font-size: 36px;
+    margin-top: 25px;
+}
+
+
+
+section#conheca {
+    padding: 70px;
+}
+
+section#conheca .texto {
+    padding: 70px;
+    padding-top: 30px;
+    padding-right: 30px;
+
+}
+
+section#conheca .texto h2 {
+    font-size: 36px;
+}
+
+section#conheca .texto p {
+    font-size: 24px;
+}
+
+section#conheca .texto a {
+   width: 60%;
+   font-size: 30px;
+}
+
+
+section#depoimento {
+    background-color: #ebe7fb;
+    border-top: 4px solid #511099;
+}
+
+
+section#depoimento .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+    padding-bottom: 50px;
+    
+}
+
+section#depoimento img {
+    width: 150px;
+    height: 150px;
+}
+
+section#depoimento p {
+    font-size: 24px;
+    width: 80%;
+    text-align: center;
+
+}
+
+section#convite {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url(fundoconvite.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section#convite form {
+    background-color: rgba(255 ,255, 255, 0.9);
+    padding: 10px;
+    width: 50%;
+    border-radius: 3px;
+    display: flex;
+    
+}
+
+section#convite .container {
+    flex-direction: column;
+    align-items: center;
+}
+
+section#convite input {
+    padding: 30px;
+    width: 75%;
+    background-color: transparent;
+    border: none;
+}
+
+section#convite button {
+    background-image: url(botaoconvite.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none; 
+    width: 110px;
+    height: 43px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+footer {
+   background-color: #2a0157; 
+   color: #fff;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   margin-top: 4px;
+}
+
+footer .container {
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+section#convite button span {
+    visibility: hidden;
+    
+
+@media (max-width: 600px) {  /*The @media CSS at-rule can be used to apply part of a style sheet based on the result of one or more media queries. 
+                               With it, you specify a media query and a block of CSS to apply to the document if and only if the media query 
+                               matches the device on which the content is being used.*/
+    header nav {
+        display: none;
+    }
+
+    header h1 {
+        margin-left: 20px;
+    }
+
+    section#topo {
+        padding: 20px;
+    }
+
+    section#conheca .container {
+        flex-direction: column;/*The flex-direction CSS property sets how flex items are placed in the flex container defining the main
+                                axis and the direction (normal or reversed).*/
+        align-items: center;
+    }
+
+    section#conheca .container .texto {
+        padding: 10px;
+    }
+
+    section#conheca .container .texto a {
+        width: 100%;
+    }
+
+    section#convite form {
+        display: block;/*means that the element is displayed as a block, as paragraphs and headers have always been*/
+        text-align: center;
+        width: 80%;
+    }
+
+}
